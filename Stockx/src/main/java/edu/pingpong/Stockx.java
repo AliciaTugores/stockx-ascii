@@ -1,13 +1,14 @@
 package edu.pingpong;
 
+import Criteria.Bids;
+import Criteria.Criteria;
 import Item.Item;
 import Item.Sneaker;
 import Item.Bid;
 import Item.Ask;
 
 
-public class Stockx
-{
+public class Stockx {
     public static void main(String[] args) {
 
         /**
@@ -43,7 +44,7 @@ public class Stockx
 
         Ask ask = new Ask("13", 288);
         sneaker.add(ask);
-        sneaker.add(new Ask("6", 600));
+        sneaker.add(new Ask ("6", 600));
         sneaker.add(new Ask("9.5", 333));
         sneaker.add(new Ask("9.5", 340));
         sneaker.add(new Ask("13", 330));
@@ -54,7 +55,7 @@ public class Stockx
          * offers de la zapatilla.
          */
 
- /*       Criteria bids = new Bids();
+        Criteria bids = new Bids();
         System.out.println("\n\t\t All BIDS");
         bids.checkCriteria(sneaker).forEach(System.out::print);
 
