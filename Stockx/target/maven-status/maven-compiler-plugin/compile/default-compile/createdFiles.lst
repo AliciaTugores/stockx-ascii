@@ -1,5 +1,6 @@
 edu\pingpong\Stockx.class
 Item\Bid.class
 Item\Sneaker.class
+Item\Ask.class
 Item\Item.class
 Item\Offer.class

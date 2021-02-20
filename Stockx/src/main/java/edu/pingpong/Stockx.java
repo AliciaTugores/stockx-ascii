@@ -3,6 +3,7 @@ package edu.pingpong;
 import Item.Item;
 import Item.Sneaker;
 import Item.Bid;
+import Item.Ask;
 
 
 public class Stockx
@@ -40,7 +41,7 @@ public class Stockx
          * en sus offers.
          */
 
-/*        Ask ask = new Ask("13", 288);
+        Ask ask = new Ask("13", 288);
         sneaker.add(ask);
         sneaker.add(new Ask("6", 600));
         sneaker.add(new Ask("9.5", 333));
