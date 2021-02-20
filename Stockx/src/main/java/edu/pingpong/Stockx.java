@@ -2,6 +2,7 @@ package edu.pingpong;
 
 import Item.Item;
 import Item.Sneaker;
+import Item.Bid;
 
 
 public class Stockx
@@ -26,7 +27,7 @@ public class Stockx
          * en sus offers.
          */
 
-/*        Bid bid = new Bid("13", 550);
+        Bid bid = new Bid("13", 550);
         sneaker.add(bid);
         sneaker.add(new Bid("6", 200));
         sneaker.add(new Bid("9.5", 479));
