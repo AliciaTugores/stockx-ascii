@@ -2,6 +2,7 @@ Criteria\Criteria.class
 Criteria\Bids.class
 edu\pingpong\Stockx.class
 Item\Bid.class
+Criteria\MaxBid.class
 Item\Ask.class
 Criteria\Asks.class
 Item\Sneaker.class

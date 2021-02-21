@@ -1,12 +1,10 @@
 package edu.pingpong;
 
-import Criteria.Bids;
+import Criteria.*;
 import Criteria.Criteria;
-import Item.Item;
-import Item.Sneaker;
-import Item.Bid;
-import Item.Ask;
+import Item.*;
 
+import java.util.List;
 
 public class Stockx {
     public static void main(String[] args) {
@@ -81,8 +79,7 @@ public class Stockx {
          * Guarda esta bid maxima en la
          * propiedad bid de sneaker.
          */
-
-/*        Criteria maxBid = new MaxBid();
+        Criteria maxBid = new MaxBid();
         List<Offer> maximum = maxBid.checkCriteria(sneaker);
         sneaker.setBid(maximum.isEmpty()? 0 : maximum.get(0).value());
         System.out.println(Stockx.draw(sneaker));
