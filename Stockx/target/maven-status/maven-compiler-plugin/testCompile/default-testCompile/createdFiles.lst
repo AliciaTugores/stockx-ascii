@@ -2,4 +2,5 @@ edu\pingpong\AppTest.class
 Item\BidTest.class
 Item\AskTest.class
 Item\SneakerTest.class
+Criteria\AsksTest.class
 Criteria\BidsTest.class

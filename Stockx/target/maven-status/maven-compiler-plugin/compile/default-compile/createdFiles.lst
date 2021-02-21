@@ -3,6 +3,7 @@ Criteria\Bids.class
 edu\pingpong\Stockx.class
 Item\Bid.class
 Item\Ask.class
+Criteria\Asks.class
 Item\Sneaker.class
 Item\Item.class
 Item\Offer.class

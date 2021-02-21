@@ -65,7 +65,7 @@ public class Stockx {
          * offers de la zapatilla.
          */
 
- /*       Criteria asks = new Asks();
+        Criteria asks = new Asks();
         System.out.println("\n\t\t All ASKS");
         asks.checkCriteria(sneaker).forEach(System.out::print);
 
