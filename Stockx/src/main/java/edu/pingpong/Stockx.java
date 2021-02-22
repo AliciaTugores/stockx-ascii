@@ -110,7 +110,7 @@ public class Stockx {
          * a mas reciente.
          */
 
-/*        Sale sale = new Sale("6", 356);
+       Sale sale = new Sale("6", 356);
         sneaker.add(sale);
         sneaker.add(new Sale("9.5", 352));
         sneaker.add(new Sale("9.5", 404));
