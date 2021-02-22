@@ -1,5 +1,6 @@
 Criteria\Criteria.class
 Criteria\Bids.class
+Criteria\MinAsk.class
 edu\pingpong\Stockx.class
 Item\Bid.class
 Criteria\MaxBid.class

@@ -97,7 +97,7 @@ public class Stockx {
          * ask de sneaker.
          */
 
-/*        Criteria minAsk = new MinAsk();
+        Criteria minAsk = new MinAsk();
         List<Offer> minimum = minAsk.checkCriteria(sneaker);
         sneaker.setAsk(minimum.isEmpty()? 0 : minimum.get(0).value());
         System.out.println(Stockx.draw(sneaker));
