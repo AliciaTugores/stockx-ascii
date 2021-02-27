@@ -123,7 +123,7 @@ public class Stockx {
          * offers de la zapatilla.
          */
 
- /*       Criteria sales = new Sales();
+        Criteria sales = new Sales();
         System.out.println("\n\t\t All SALES");
         sales.checkCriteria(sneaker).forEach(System.out::print);
 
@@ -134,7 +134,7 @@ public class Stockx {
          * en sneaker).
          */
 
-/*        Criteria lastSale = new LastSale();
+        Criteria lastSale = new LastSale();
 
         List<Offer> actualSale = lastSale.checkCriteria(sneaker);
         sneaker.setSale(actualSale.isEmpty()? 0 : actualSale.get(0).value());
