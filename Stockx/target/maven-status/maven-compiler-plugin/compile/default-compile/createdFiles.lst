@@ -12,6 +12,6 @@ Criteria\LastSale.class
 Item\Bid.class
 Criteria\Asks.class
 Item\Sale.class
-Criteria\AndCriteriaBids.class
 Item\Sneaker.class
+Criteria\Max.class
 Item\Offer.class

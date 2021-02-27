@@ -19,11 +19,11 @@ public class AndCriteria implements Criteria{
 
     @Override
     public List<Offer> checkCriteria(Item sneaker) {
-        List<Offer> criteriaSize = criteria.checkCriteria(sneaker);
-        List<Offer> criteriaSales = criteria.checkCriteria(sneaker);
+        List<Offer> criteria1 = criteria.checkCriteria(sneaker);
+        List<Offer> criteria2 = criteria.checkCriteria(sneaker);
         List<Offer> sizeAndsales = new ArrayList<Offer>();
 
-        return sizeAndsales = criteriaSize.stream().filter(c -> (criteriaSales.stream().filter(cc -> cc.equals(c)).count())>=1).collect(Collectors.toList());
+        return sizeAndsales = criteria1.stream().filter(c -> (criteria2.stream().filter(cc -> cc.equals(c)).count())>=1).collect(Collectors.toList());
     }
 
 }
