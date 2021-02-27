@@ -3,6 +3,7 @@ edu\pingpong\Stockx.class
 Criteria\MaxBid.class
 Item\Ask.class
 Criteria\Sales.class
+Criteria\Size.class
 Item\Item.class
 Criteria\Bids.class
 Criteria\MinAsk.class

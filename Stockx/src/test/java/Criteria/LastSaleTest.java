@@ -28,6 +28,5 @@ public class LastSaleTest{
             assertTrue(offer instanceof Sale);
             assertEquals(987, offer.value());
         }
-
     }
     }

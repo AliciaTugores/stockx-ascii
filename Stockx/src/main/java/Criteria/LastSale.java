@@ -1,12 +1,9 @@
 package Criteria;
 
 import Item.*;
-import Item.Offer;
-
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
-import java.util.stream.Collectors;
+
 
 public class LastSale implements Criteria{
 

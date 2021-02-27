@@ -9,3 +9,4 @@ Criteria\AsksTest.class
 Criteria\BidsTest.class
 Criteria\SalesTest.class
 Criteria\LastSaleTest.class
+Criteria\SizeTest.class

@@ -155,7 +155,7 @@ public class Stockx {
          * un AND de los filtros Size y Sales.
          */
 
- /*       System.out.println("\n\t\t SALES 9.5 US");
+        System.out.println("\n\t\t SALES 9.5 US");
         Criteria size = new Size("9.5");
 
         sales = new Sales();
