@@ -5,11 +5,13 @@ Item\Ask.class
 Criteria\Sales.class
 Criteria\Size.class
 Item\Item.class
+Criteria\AndCriteria.class
 Criteria\Bids.class
 Criteria\MinAsk.class
 Criteria\LastSale.class
 Item\Bid.class
 Criteria\Asks.class
 Item\Sale.class
+Criteria\AndCriteriaBids.class
 Item\Sneaker.class
 Item\Offer.class
