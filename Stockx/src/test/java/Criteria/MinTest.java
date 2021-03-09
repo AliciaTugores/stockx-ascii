@@ -34,5 +34,5 @@ public class MinTest{
         List<Offer> resultado = criteriaMin.checkCriteria(zapas);
         Offer hola = resultado.get(0);
         assertEquals(222, hola.value());
-    }g
+    }
 }
