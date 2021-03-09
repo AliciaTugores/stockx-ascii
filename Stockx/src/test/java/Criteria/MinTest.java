@@ -1,11 +1,19 @@
 package Criteria;
 
+
+import Item.Item;
+import org.junit.Test;
+
+import java.util.List;
+
+import static org.junit.Assert.assertEquals;
+
 import Item.*;
 import org.junit.Test;
 import java.util.List;
 import static org.junit.Assert.assertEquals;
 
-public class MaxTest{
+public class MinTest{
 
     @Test
     public void checkCriteriaTest() {
@@ -20,13 +28,11 @@ public class MaxTest{
         zapas.add(new Sale("10", 987));
 
         Criteria criteriaSales = new Sales();
-        Criteria criteriaSize = new Size("12");
-        Criteria criteriaMax = new Max(criteriaSales, criteriaSize);
+        Criteria criteriaSize = new Size("14");
+        Criteria criteriaMin = new Min(criteriaSales, criteriaSize);
 
-        List<Offer> resultado = criteriaMax.checkCriteria(zapas);
+        List<Offer> resultado = criteriaMin.checkCriteria(zapas);
         Offer hola = resultado.get(0);
-        assertEquals(987, hola.value());
-
-    }
+        assertEquals(222, hola.value());
+    }g
 }
-

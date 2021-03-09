@@ -14,6 +14,7 @@ public class MaxBidTest{
         Criteria maxBid = new MaxBid();
 
         Item zapas = new Sneaker("555088-105", "Jordan 1 Retro High Dark Mocha");
+        zapas.add(new Bid("15", 322));
         zapas.add(new Bid("15", 995));
         zapas.add(new Ask("6", 600));
         zapas.add(new Ask("9.5", 333));

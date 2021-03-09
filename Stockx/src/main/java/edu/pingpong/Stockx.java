@@ -1,7 +1,6 @@
 package edu.pingpong;
 
 import Criteria.*;
-import Criteria.Criteria;
 import Item.*;
 
 import java.util.List;
@@ -110,7 +109,7 @@ public class Stockx {
          * a mas reciente.
          */
 
-       Sale sale = new Sale("6", 356);
+        Sale sale = new Sale("6", 356);
         sneaker.add(sale);
         sneaker.add(new Sale("9.5", 352));
         sneaker.add(new Sale("9.5", 404));
@@ -184,7 +183,7 @@ public class Stockx {
          * de una talla.
          */
 
- /*       Criteria sizeMaxBid = new Max(size, bids);
+        Criteria sizeMaxBid = new Max(size, bids);
         List<Offer> sizeBid = sizeMaxBid.checkCriteria(sneaker);
         sneaker.setBid(sizeBid.isEmpty()? 0 : sizeBid.get(0).value());
         System.out.println("\n\t\t MAX BID 9.5 US: " + sneaker.getBid());
@@ -195,7 +194,7 @@ public class Stockx {
          * de una talla.
          */
 
-/*        Criteria sizeMinAsk = new Min(size, asks);
+        Criteria sizeMinAsk = new Min(size, asks);
         List<Offer> sizeAsk = sizeMinAsk.checkCriteria(sneaker);
         sneaker.setAsk(sizeAsk.isEmpty()? 0 : sizeAsk.get(0).value());
         System.out.println("\n\t\t MIN ASK 9.5 US: " + sneaker.getAsk());

@@ -1,8 +1,6 @@
 package Criteria;
 
-import Item.Item;
-import Item.Offer;
-
+import Item.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;

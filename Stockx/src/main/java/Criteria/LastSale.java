@@ -9,14 +9,12 @@ public class LastSale implements Criteria{
 
     public LastSale(){}
 
-    List<Offer> resultadoLastSale = new ArrayList<Offer>();
-
     @Override
     public List<Offer> checkCriteria(Item sneaker) {
-        List<Offer> zapatilla = sneaker.offers();
+        List<Offer> resultadoLastSale = new ArrayList<Offer>();
         Criteria sales = new Sales();
         Offer sale = sales.checkCriteria(sneaker).stream().reduce((first, second) -> second).orElse(null);
-        zapatilla.add(sale);
+        resultadoLastSale.add(sale);
         return resultadoLastSale;
     }
 

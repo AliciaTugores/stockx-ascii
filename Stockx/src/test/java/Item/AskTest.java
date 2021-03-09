@@ -11,8 +11,7 @@ public class AskTest{
     @Test
     public void toStringTest() {
         Ask ask = new Ask("13", 288);
-        assertEquals("size='" + "13" + '\'' +
-                "ask=" + 288, ask.toString());
+        assertEquals("\n\t\t" + "13" + "\t\t" + 288, ask.toString());
     }
 
 }

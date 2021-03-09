@@ -21,9 +21,7 @@ public class Ask implements Offer {
 
     @Override
     public String toString() {
-        return
-                "size='" + size + '\'' +
-                "ask=" + ask;
+        return "\n\t\t" + size() + "\t\t" + value();
     }
 
 

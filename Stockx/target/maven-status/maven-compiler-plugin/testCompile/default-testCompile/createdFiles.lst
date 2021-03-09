@@ -1,5 +1,6 @@
 Item\BidTest.class
 Criteria\MaxBidTest.class
+Criteria\MinTest.class
 Criteria\AndCriteriaTest.class
 Criteria\AsksTest.class
 Criteria\LastSaleTest.class
@@ -9,5 +10,6 @@ edu\pingpong\AppTest.class
 Item\SaleTest.class
 Item\AskTest.class
 Item\SneakerTest.class
+Criteria\MaxTest.class
 Criteria\BidsTest.class
 Criteria\SalesTest.class
